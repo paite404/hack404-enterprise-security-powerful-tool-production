@@ -53,6 +53,19 @@ HACK404 PRODUCTION - Enterprise Cybersecurity Monitoring &amp; Defense Platform.
 ---
 
 ## 🛠️ **Installation**
+# Install with all optional dependencies
+pip install -r requirements-full.txt
+
+# For packet capture capabilities on Linux
+sudo apt-get install tcpdump libpcap-dev  # Debian/Ubuntu
+sudo yum install tcpdump libpcap-devel    # RHEL/CentOS
+
+# Run with administrative privileges for full functionality
+sudo python monitor.py
+username admin
+password admin123
+
+# Remeber to change the password.
 
 ### Prerequisites
 - Python 3.8 or higher
